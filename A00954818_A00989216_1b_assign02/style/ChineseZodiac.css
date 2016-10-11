@@ -25,8 +25,7 @@ body {
   border-radius: 5px;
   padding-top: 10px;
 }
-
-#navbar {
+#navbar{
   background-color: #5C946E;
   margin: 10px;
   padding-top: 10px;
@@ -34,6 +33,18 @@ body {
   border-radius: 5px;
   text-align: center;
 }
+
+nav {
+  float: left;
+  background-color: #80C2AF;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  text-align: center;
+  width:240px;
+}
+
 
 .homemain {
   background: rgba(250,252,151,0.6);
@@ -49,7 +60,7 @@ body {
 
 .main {
   background: rgba(250,252,151,0.6);
-  margin-left: 290px;
+  margin-left: 260px;
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -191,4 +202,39 @@ textarea:focus {
   border: 3px solid #FFFF00;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
+}
+@media only screen and (max-width: 768px) {
+  nav  {
+    float:none;
+		width: auto;
+    background-color: width:240px;;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    text-align: center;
+	}
+
+  .main {
+    background: rgba(250,252,151,0.6);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 140%;
+  }
+
+  .homemain {
+    background: rgba(250,252,151,0.6);
+    min-width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 140%;
+  }
 }
