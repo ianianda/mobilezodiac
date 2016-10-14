@@ -235,13 +235,18 @@ textarea:focus {
     font-size: 90%;
   }
 
-  .hiddenOnMobile{
-    width: 0%;
-    visibility: hidden;
+  td.hiddenOnMobile{
+    font-size: 1px;
+    letter-spacing: -1px;
+    color: transparent;;
+    display: block;
   }
 
-  .shownOnMobile{
+  td.shownOnMobile{
     width: 100%;
+    float: left;
+
+
   }
 
   ::-webkit-input-placeholder {
@@ -352,18 +357,7 @@ h1{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 
-  textarea {
-    margin-top: 10px;
-  	padding:5px;
-  	height: 60px;
-  	border-radius: 5px;
-    width: 80%;
-    border: 2px solid #5C946E;
-    font-family: Arial;
-    font-size: 90%;
-  }
-
-  textarea:focus {
+    textarea:focus {
     border: 3px solid #FFFF00;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
