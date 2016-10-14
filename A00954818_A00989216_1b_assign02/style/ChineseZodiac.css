@@ -193,6 +193,10 @@ textarea:focus {
   border: 3px solid #FFFF00;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
 @media only screen and (max-width: 768px) {
   nav  {
     float:none;
@@ -204,6 +208,46 @@ textarea:focus {
     text-align: center;
 	}
 
+  input {
+    height: 30px;
+  	border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 2px solid #5C946E;
+    font-size: 90%;
+  }
+
+  input:focus {
+    border: 3px solid #FFFF00;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  textarea {
+    margin-top: 10px;
+  	padding:5px;
+  	height: 60px;
+  	border-radius: 5px;
+    width: 100%;
+    border: 2px solid #5C946E;
+    font-family: Arial;
+    font-size: 90%;
+  }
+
+  .hiddenOnMobile{
+    width: 0%;
+    visibility: hidden;
+  }
+
+  .shownOnMobile{
+    width: 100%;
+  }
+
+  ::-webkit-input-placeholder {
+      color: #e5e5e5;
+  }
+
   .main {
     background: rgba(250,252,151,0.6);
     margin-left: 10px;
@@ -214,7 +258,7 @@ textarea:focus {
     padding: 15px;
     font-size: 140%;
   }
-  
+
 h1{
   text-align: center;
 }
@@ -240,17 +284,6 @@ h1{
     width:150px;
 
   }
-}
-@media only screen and (max-width: 768px) {
-  nav  {
-    float:none;
-		width: auto;
-    margin: 10px;
-    padding-top: 10px;
-    padding-bottom: 3px;
-    border-radius: 5px;
-    text-align: center;
-	}
 
   nav li {
 		display: inline;
@@ -260,39 +293,6 @@ h1{
 		text-align: center;
     padding: 0;
 	}
-
-  .main {
-    background: rgba(250,252,151,0.6);
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 140%;
-  }
-
-  .homemain {
-    background: rgba(250,252,151,0.6);
-    min-width: 300px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 140%;
-  }
-
-  .imagebox {
-    background: rgba(250,252,151,0.6);
-    margin-left: 10px;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    width:150px;
-  }
 
   #buttons li {
     list-style: none;
@@ -325,7 +325,7 @@ h1{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
-    width: 60%;
+    width: 80%;
     border: 2px solid #5C946E;
     font-size: 90%;
   }
@@ -357,7 +357,7 @@ h1{
   	padding:5px;
   	height: 60px;
   	border-radius: 5px;
-    width: 60%;
+    width: 80%;
     border: 2px solid #5C946E;
     font-family: Arial;
     font-size: 90%;
@@ -454,8 +454,19 @@ h1{
       margin-top: 10px;
       margin-bottom: 10px;
       padding: 5px;
-      width: 60%;
+      width: 100%;
       border: 2px solid #5C946E;
+      font-size: 90%;
+    }
+
+    textarea {
+      margin-top: 10px;
+    	padding:5px;
+    	height: 60px;
+    	border-radius: 5px;
+      width: 100%;
+      border: 2px solid #5C946E;
+      font-family: Arial;
       font-size: 90%;
     }
 
@@ -470,29 +481,13 @@ h1{
       color: #000;
     }
 
-    input.button:hover {
-      text-decoration: none;
-      color: #000000;
-      background-color: #FAFC97;
-    }
-
-    input:focus {
-      border: 3px solid #FFFF00;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
-
-    textarea {
+    .contacttable {
+      background: rgba(250,252,151,0.6);
+      margin-left: 10px;
+      margin-right: 10px;
       margin-top: 10px;
-    	padding:5px;
-    	height: 60px;
-    	border-radius: 5px;
-      width: 60%;
-      border: 2px solid #5C946E;
-      font-family: Arial;
-      font-size: 90%;
-    }
-
-    textarea:focus {
-      border: 3px solid #FFFF00;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      margin-bottom: 10px;
+      border-radius: 5px;
+      padding: 15px;
+      font-size: 140%;
     }
