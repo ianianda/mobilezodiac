@@ -25,7 +25,7 @@ body {
   border-radius: 5px;
   padding-top: 10px;
 }
-#navbar{
+#navbar {
   background-color: #5C946E;
   margin: 10px;
   padding-top: 10px;
@@ -108,7 +108,6 @@ nav ul {
 
 .imagebox {
   background: rgba(250,252,151,0.6);
-  margin-left: 0px;
   margin-right: 10px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -198,14 +197,13 @@ textarea:focus {
     color: #fff;
 }
 @media only screen and (max-width: 768px) {
-  nav  {
+  nav {
     float:none;
 		width: auto;
-    margin: 10px;
-    padding-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 1px;
     padding-bottom: 3px;
-    border-radius: 5px;
-    text-align: center;
 	}
 
   input {
@@ -245,8 +243,6 @@ textarea:focus {
   td.shownOnMobile{
     width: 100%;
     float: left;
-
-
   }
 
   ::-webkit-input-placeholder {
@@ -254,50 +250,27 @@ textarea:focus {
   }
 
   .main {
-    background: rgba(250,252,151,0.6);
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 140%;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
 h1{
   text-align: center;
 }
+
   .homemain {
-    background: rgba(250,252,151,0.6);
     min-width: 300px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 140%;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .imagebox {
-    background: rgba(250,252,151,0.6);
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    width:150px;
-
   }
 
-  nav li {
-		display: inline;
-	}
-
-	nav ul {
-		text-align: center;
-    padding: 0;
-	}
 
   #buttons li {
     list-style: none;
@@ -306,10 +279,6 @@ h1{
     margin-right: auto;
     margin-left: auto;
     line-height: 30px;
-  }
-
-  #floatingpictures {
-    width:100%;
   }
 
   p {
@@ -363,56 +332,26 @@ h1{
   }
 
   @media only screen and (max-width: 480px) {
-    nav  {
-      float:none;
-  		width: auto;
+    nav {
       margin: 10px;
-      padding-top: 10px;
-      padding-bottom: 3px;
-      border-radius: 5px;
-      text-align: center;
-  	}
-
-    nav li {
-  		display: inline;
-  	}
-
-  	nav ul {
-  		text-align: center;
-      padding: 0;
   	}
 
     .main {
-      background: rgba(250,252,151,0.6);
       margin-left: 10px;
       margin-right: 10px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      border-radius: 5px;
-      padding: 15px;
-      font-size: 140%;
     }
 
     .homemain {
-      background: rgba(250,252,151,0.6);
-      min-width: 300px;
       margin-left: 10px;
       margin-right: 10px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      border-radius: 5px;
-      padding: 15px;
-      font-size: 140%;
     }
 
+
     .imagebox {
-      background: rgba(250,252,151,0.6);
       margin-left: 10px;
       margin-right: auto;
       margin-top: 5px;
       margin-bottom: 10px;
-      border-radius: 5px;
-      width:150px;
     }
 
     #buttons li {
@@ -422,12 +361,8 @@ h1{
       background-color: #80C2AF;
       margin-right: auto;
       margin-left: auto;
-      width: 80px;
+      width: 100%;
       line-height: 30px;
-    }
-
-    #floatingpictures {
-      width:100%;
     }
 
     p {
